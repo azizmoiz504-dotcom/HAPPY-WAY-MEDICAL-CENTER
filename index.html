@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Happy Way Medical Center | Quality Care You Can Trust</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container": "#e5eeff",
+                    "inverse-primary": "#a9c7ff",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#002020",
+                    "error": "#ba1a1a",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#8cf3f3",
+                    "secondary": "#006a6a",
+                    "tertiary": "#41484f",
+                    "on-tertiary-fixed": "#151c22",
+                    "surface-container-low": "#eef4ff",
+                    "tertiary-fixed": "#dce3eb",
+                    "surface-container-highest": "#d9e3f4",
+                    "on-primary-fixed-variant": "#00468c",
+                    "on-surface-variant": "#424752",
+                    "surface-bright": "#f8f9ff",
+                    "surface-tint": "#005db6",
+                    "secondary-container": "#8cf3f3",
+                    "surface": "#f8f9ff",
+                    "on-secondary-container": "#007070",
+                    "on-primary-fixed": "#001b3d",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#d4dbe2",
+                    "tertiary-container": "#596067",
+                    "inverse-surface": "#27313e",
+                    "tertiary-fixed-dim": "#c0c7cf",
+                    "primary-fixed-dim": "#a9c7ff",
+                    "primary-container": "#005eb8",
+                    "on-primary-container": "#c8daff",
+                    "primary": "#00478d",
+                    "on-surface": "#121c28",
+                    "surface-dim": "#d1dbec",
+                    "background": "#f8f9ff",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed-variant": "#004f4f",
+                    "surface-variant": "#d9e3f4",
+                    "on-tertiary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "on-background": "#121c28",
+                    "surface-container-high": "#dfe9fa",
+                    "outline-variant": "#c2c6d4",
+                    "inverse-on-surface": "#eaf1ff",
+                    "primary-fixed": "#d6e3ff",
+                    "outline": "#727783",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed-dim": "#6fd7d6",
+                    "on-tertiary-fixed-variant": "#40484e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin": "32px",
+                    "container-max": "1280px",
+                    "section-gap": "80px",
+                    "unit": "8px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Manrope"],
+                    "body-md": ["Manrope"],
+                    "h1": ["Manrope"],
+                    "h3": ["Manrope"],
+                    "h2": ["Manrope"],
+                    "label-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "h1": ["48px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "h3": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "h2": ["36px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "label-sm": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background font-body-md text-on-background selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="bg-white/90 dark:bg-slate-900/90 backdrop-blur-md docked full-width top-0 z-50 sticky border-b border-slate-100 dark:border-slate-800 shadow-[0_4px_20px_rgba(0,94,184,0.08)]">
+<div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-700 dark:text-blue-400 text-3xl" data-icon="medical_services">medical_services</span>
+<h1 class="text-xl font-bold text-blue-700 dark:text-blue-400 tracking-tight font-manrope">Happy Way Medical Center</h1>
+</div>
+<nav class="hidden md:flex gap-8">
+<a class="text-blue-700 dark:text-blue-400 border-b-2 border-blue-600 pb-1 font-manrope font-semibold" href="#">Home</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 font-manrope font-semibold transition-all duration-300" href="#">Services</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 font-manrope font-semibold transition-all duration-300" href="#">About Us</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 font-manrope font-semibold transition-all duration-300" href="#">Contact</a>
+</nav>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-manrope font-semibold hover:bg-primary-container active:scale-95 transition-all shadow-md">
+                Book Now
+            </button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative pt-12 pb-24 px-6 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<div class="inline-flex items-center gap-2 bg-surface-container px-4 py-2 rounded-full mb-6">
+<div class="flex text-yellow-500">
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star_half" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="text-label-sm font-bold text-on-surface">4.7-star rating</span>
+<span class="text-label-sm text-outline">389+ reviews</span>
+</div>
+<h1 class="font-h1 text-h1 text-on-surface mb-6">Quality Care You Can Trust</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                        Affordable &amp; Modern Medical Services in Sharjah. Experience healthcare designed around your comfort and well-being.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-xl font-h3 text-body-md hover:shadow-lg active:scale-95 transition-all">
+                            Book Appointment
+                        </button>
+<button class="border-2 border-secondary text-secondary px-8 py-4 rounded-xl font-h3 text-body-md hover:bg-secondary/5 transition-all">
+                            View Our Services
+                        </button>
+</div>
+<div class="mt-12 flex items-center gap-4 p-4 bg-white rounded-xl shadow-[0_4px_20px_rgba(0,94,184,0.06)] border border-slate-50">
+<div class="flex -space-x-3">
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="Close-up portrait of a professional female doctor in a white lab coat, smiling warmly in a bright, modern clinic setting with soft clinical blue and white tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm-h0MPL_pGsIgztGiXCYTu7ef9Ojay0MFbxntZiBXAkkqE_Ahkx42IM7sF78SI6UZQqk2Hqgp6jeFjyGWI5SXUotKslHWILzmtimwjm6P1wpRL4VSvIWoqFGIDKzSVsq3p9fbqynyrPwxCFhzsWQ3-ihty825MaPejASkKKsvrKorX5TC4rXIkr2lBfKt21YSfQiMpnyC7Elqzlzq2hpEQezArW8DUa-zfyPle2T7HfAudV632_lB5woWF9EATFy2GYYw4t1F6Wk"/>
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="A portrait of a male physician with a stethoscope, looking confident and approachable. The lighting is soft and airy, emphasizing a high-end, professional medical environment with clean white spaces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyyN5OZdlVaSAjJEv_-qDzvYjyaKPfbGkd4qgLALm_ZGo218zo15qtKeow6-oWALePYCwgAYCqVk1O3e_panW4TymeZf0g8Kl1f7GGrszga03xVZC0EeVBxKZimbtkZ2TCb4Cl4M545Kr7wqV8VtBO-X1fa_4d2y_6jQDtx_T8o9cGoTuSR7FsAx2ov18W23OqTOL_G5-fQJGSno-7DzVh-KszzNdERi6jLn31bsz1vMlQ1hyHhwn4QS1uyvE7MP8CWXWtA9kTUdw"/>
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="A smiling healthcare professional in a bright, modern medical facility. The background is softly blurred, showing clean, minimalist interior design and high-quality clinical equipment under gentle, diffuse lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDQFVRk8eRBB4Mo__VWoHIQMrs47T5UdixGdGlcWrvvF907q9944kNa35ljapMw2Ml6xxXtdMumeKr2nkLanOT4WrlDngUbreDs2CmdT2zJKOn4Qb_LerbgqcNGcPOc7vRBJ_yGxvoFqvIdx44ue7fo3h8o9y4vzJfVfUH6ECfkIG5gtIi7ve0sPl_-9260aKdYIog_oWI-lbQDO6HK_LTzAgtgRYSOw6TITU5roZqwGSna4CKbPK9WapGyalRsXDG24HPyW7Nm9c"/>
+</div>
+<p class="text-label-sm text-on-surface-variant">
+                            Joined by over <span class="font-bold text-primary">5,000+</span> patients this year.
+                        </p>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-blue-100/50 rounded-full blur-3xl -z-10"></div>
+<div class="absolute -bottom-12 -left-12 w-64 h-64 bg-teal-100/50 rounded-full blur-3xl -z-10"></div>
+<div class="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
+<img class="w-full h-[500px] object-cover" data-alt="A bright and spacious modern medical waiting room with soft minimalist furniture, large windows allowing natural light, and a calm, clinical blue and white color palette. The atmosphere is professional, peaceful, and welcoming." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIDRWP50NLHqCdYHUXRGQv4jsuav0M7K3z48saiNvwHBWijPbL4DWQAR_mYUqgmFfEccyipUEyhHA_QBmV6i5kUpOzrmje-6yfCD9xzLvnAn2rd3Gen82VqrZQDA2AiyficpG1XR37uvTXzINkl3M5-6Ct9f9FfeBdPWZ5Y_03J-I5AZLzYisMxVwQJCQavwVr80vyZcd_u8yLy7-Ey4HUsZUXiYAhSZQG-jBOVlzoYHzQXoNzQdazXp5JSMkHUg8b2gWzA0tswDI"/>
+</div>
+<!-- Quick Info Card -->
+<div class="absolute bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl max-w-xs border border-slate-100 hidden md:block">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-green-500" data-icon="schedule">schedule</span>
+<span class="font-bold text-on-surface">Open until 10 PM</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">Available for evening consultations and emergency walk-ins.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (Bento Grid) -->
+<section class="py-24 px-6 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-h2 text-h2 text-on-surface mb-4">Our Services</h2>
+<p class="font-body-md text-on-surface-variant max-w-2xl mx-auto">Comprehensive medical care delivered by experts with the latest technology in a comforting environment.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Pediatrics -->
+<div class="md:col-span-2 bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,94,184,0.04)] hover:shadow-lg transition-all group">
+<div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white" data-icon="child_care">child_care</span>
+</div>
+<h3 class="font-h3 text-h3 mb-2">Pediatrics</h3>
+<p class="text-on-surface-variant mb-6">Specialized care for infants, children, and adolescents in a kid-friendly environment.</p>
+<a class="text-primary font-bold flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- General Consultation -->
+<div class="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,94,184,0.04)] hover:shadow-lg transition-all group">
+<div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary group-hover:text-white" data-icon="stethoscope">stethoscope</span>
+</div>
+<h3 class="text-xl font-bold mb-2">General Consultation</h3>
+<p class="text-label-sm text-on-surface-variant">Expert primary care for all your health concerns.</p>
+</div>
+<!-- Lab Services -->
+<div class="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,94,184,0.04)] hover:shadow-lg transition-all group">
+<div class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-600 transition-colors">
+<span class="material-symbols-outlined text-purple-600 group-hover:text-white" data-icon="biotech">biotech</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Lab Services</h3>
+<p class="text-label-sm text-on-surface-variant">Fast and accurate diagnostic testing on-site.</p>
+</div>
+<!-- Dental -->
+<div class="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,94,184,0.04)] hover:shadow-lg transition-all group">
+<div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-600 transition-colors">
+<span class="material-symbols-outlined text-orange-600 group-hover:text-white" data-icon="dentistry">dentistry</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Dental Care</h3>
+<p class="text-label-sm text-on-surface-variant">Complete oral health services for the whole family.</p>
+</div>
+<!-- Emergency -->
+<div class="md:col-span-2 bg-primary text-on-primary p-8 rounded-3xl shadow-xl flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-4xl mb-6" data-icon="emergency">emergency</span>
+<h3 class="font-h2 text-h3 mb-4">Emergency Support</h3>
+<p class="opacity-90 mb-6">Our facility is equipped for immediate medical needs and urgent care cases in the heart of Sharjah.</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="bg-white/20 px-4 py-2 rounded-full text-label-sm">24/7 Hotline</span>
+<span class="font-bold text-lg">+971 6 5XX XXXX</span>
+</div>
+</div>
+<!-- Pharmacy -->
+<div class="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,94,184,0.04)] hover:shadow-lg transition-all group">
+<div class="w-14 h-14 bg-pink-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-pink-600 transition-colors">
+<span class="material-symbols-outlined text-pink-600 group-hover:text-white" data-icon="medication">medication</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Pharmacy</h3>
+<p class="text-label-sm text-on-surface-variant">Convenient on-site pharmacy for all prescriptions.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials & Location -->
+<section class="py-24 px-6">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-h2 text-h2 mb-12">What Our Patients Say</h2>
+<div class="relative bg-surface-container-low p-10 rounded-[2rem] border border-blue-50">
+<span class="material-symbols-outlined text-6xl text-primary/20 absolute top-4 right-8" data-icon="format_quote">format_quote</span>
+<div class="flex gap-1 text-yellow-500 mb-6">
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-h3 text-h3 text-on-surface mb-8 italic">
+                            "The clinic is modern, clean, and provides great care at a fair price. The staff is professional and truly cares about the patients."
+                        </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-on-primary font-bold">A</div>
+<div>
+<h4 class="font-bold">Ahmed Hassan</h4>
+<p class="text-label-sm text-on-surface-variant">Sharjah Resident</p>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<div class="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,94,184,0.08)]">
+<h3 class="font-h3 text-h3 mb-6">Find Us</h3>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 bg-blue-50 rounded-full flex-shrink-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="location_on">location_on</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Address</p>
+<p class="text-on-surface-variant">3rd FLOOR, THE RESIDENCE 7 BUILDING - Al Rolla St - Sharjah</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 bg-teal-50 rounded-full flex-shrink-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary" data-icon="schedule">schedule</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Opening Hours</p>
+<p class="text-on-surface-variant">Daily: 8:00 AM - 10:00 PM</p>
+<p class="text-green-600 text-sm font-semibold mt-1">Open Now</p>
+</div>
+</div>
+</div>
+<div class="mt-8 h-48 rounded-2xl overflow-hidden grayscale">
+<img class="w-full h-full object-cover" data-alt="A stylized map representation of Sharjah city streets featuring a medical center icon. The map is designed with a modern minimalist aesthetic using soft blue and gray tones to match a professional healthcare brand identity." data-location="Sharjah, UAE" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGuLUNYScPbjVas3-MIUMCUCJ-LHvDYmYQvhCHjiBQehIQ25ysEaFVulhhMQDuOH3hUZQCeaGpmwf5yuWqh5KrL-iQ9WF5OdJvRUOtuN5Mv1jVVv_8OoAYtSdNWIJWKGjM2SLGVS5NIJ_080xTLU4n1Be9v_eKnEXmh4BxMLJHSgVV5ppR70xkDTGz6vvo5WZ2p4phK3L2WWrnkkF1MNoJ3caGZKWgSdNa-GXFDU94LASgVkMi-nvf6rhgygtLQ9rswOcpQ43zWMs"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full px-8 py-12 max-w-7xl mx-auto">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-700 dark:text-blue-400 text-2xl" data-icon="medical_services">medical_services</span>
+<span class="text-lg font-bold text-blue-700 dark:text-blue-400 font-manrope">Happy Way Medical Center</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 max-w-md font-manrope text-sm">
+                    Providing world-class healthcare with a human touch. Our mission is to make quality medical services accessible to everyone in Sharjah.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-white rounded-full shadow-sm flex items-center justify-center text-slate-400 hover:text-blue-600 transition-colors border border-slate-100" href="#"><span class="material-symbols-outlined" data-icon="public">public</span></a>
+<a class="w-10 h-10 bg-white rounded-full shadow-sm flex items-center justify-center text-slate-400 hover:text-blue-600 transition-colors border border-slate-100" href="#"><span class="material-symbols-outlined" data-icon="share">share</span></a>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div>
+<h4 class="font-bold text-on-surface mb-6 font-manrope">Navigation</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope text-sm" href="#">Home</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope text-sm" href="#">Services</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope text-sm" href="#">About Us</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-on-surface mb-6 font-manrope">Support</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope text-sm" href="#">Contact</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope text-sm" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="w-full px-8 py-6 max-w-7xl mx-auto border-t border-slate-200/60 dark:border-slate-800/60">
+<p class="text-slate-500 dark:text-slate-400 font-manrope text-sm text-center md:text-left">
+                © 2024 Happy Way Medical Center. All rights reserved.
+            </p>
+</div>
+</footer>
+<!-- FAB for quick booking -->
+<div class="fixed bottom-8 right-8 z-40 md:hidden">
+<button class="bg-primary text-on-primary w-16 h-16 rounded-full shadow-2xl flex items-center justify-center active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="calendar_month">calendar_month</span>
+</button>
+</div>
+</body></html>
